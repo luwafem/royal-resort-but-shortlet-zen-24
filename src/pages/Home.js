@@ -45,7 +45,7 @@ const Home = () => {
     <div className="bg-white text-zinc-900 selection:bg-zinc-900 selection:text-white">
       <SEO {...naijaStaysData.seo} />
 
-      {/* ================= HERO SECTION ================= */}
+      {/* ================= HERO SECTION ================ */}
       <section className="relative h-screen w-full overflow-hidden bg-zinc-900">
         <AnimatePresence mode="wait">
           <motion.img
