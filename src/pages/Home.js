@@ -9,12 +9,12 @@ import { FiWifi, FiShield, FiZap, FiHome, FiArrowRight } from 'react-icons/fi';
 
 const heroSlides = [
   {
-    image: 'https://unsplash.com/photos/b_79nOqf95I/download?force=true&w=2400',
+    image: 'https://unsplash.com/photos/MXbM1NrRqtI/download?force=true&w=2400',
     title: 'Luxury Shortlet Living',
     subtitle: 'Curated premium stays across Nigeria'
   },
   {
-    image: 'https://unsplash.com/photos/MXbM1NrRqtI/download?force=true&w=2400',
+    image: 'https://unsplash.com/photos/4LLHJHyXQVk/download?force=true&w=2400',
     title: 'Designed for Comfort',
     subtitle: 'Refined apartments in prime city locations'
   },
