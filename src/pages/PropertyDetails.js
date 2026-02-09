@@ -42,13 +42,13 @@ const PropertyDetails = () => {
   const total = (property.price * nights) + SERVICE_FEE;
 
   const whatsappMessage = encodeURIComponent(
-    `Hello mex apartments 👋\n\nI’m interested in booking:\n${property.name}\n\n📅 ${checkIn || 'Flexible'} to ${checkOut || 'Flexible'}\n👥 Guests: ${guests}\n\nEstimated total: ${formatPrice(total)}`
+    `Hello sakari homes 👋\n\nI’m interested in booking:\n${property.name}\n\n📅 ${checkIn || 'Flexible'} to ${checkOut || 'Flexible'}\n👥 Guests: ${guests}\n\nEstimated total: ${formatPrice(total)}`
   );
 
   return (
     <div className="bg-white selection:bg-zinc-900 selection:text-white">
       <SEO
-        title={`${property.name} | MEX APARTMENTS`}
+        title={`${property.name} | SAKARI HOMES`}
         description={property.description}
         image={property.images[0]}
       />

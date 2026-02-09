@@ -12,7 +12,7 @@ export const createPropertyWhatsAppMessage = (property, checkInDate, checkOutDat
     maximumFractionDigits: 0
   }).format(total);
 
-  const message = `Hello mex apartments
+  const message = `Hello sakari homes
 
 I want to book: ${property.name}
 📍 Location: ${property.location}

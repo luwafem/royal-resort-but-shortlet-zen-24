@@ -39,7 +39,7 @@ const Home = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const whatsappMsg = encodeURIComponent("Hello mex apartments 👋\n\nI’d like help booking a premium shortlet.");
+  const whatsappMsg = encodeURIComponent("Hello sakari homes 👋\n\nI’d like help booking a premium shortlet.");
 
   return (
     <div className="bg-white text-zinc-900 selection:bg-zinc-900 selection:text-white">
